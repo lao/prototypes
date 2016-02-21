@@ -1,0 +1,124 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	display: block;
+}
+
+header {
+	/*height: 55px;*/
+	margin: 0;
+	box-sizing: border-box;
+	display: flex; /* why not block? block makes it jump in front of the parent div and not add to its height */
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+	border-bottom: 2px solid #ededed;
+	/*margin-bottom: 0;*/
+	/*background-color: yellow;*/
+}
+
+.search {
+	margin: 0;
+	display: flex;
+	box-sizing: border-box;
+	height: 35px;
+	width: 985px;
+	border-radius: 5px;
+	border: 1px solid #c0c0c0;
+	background-image: linear-gradient(white, #eeeeee);
+	/*overflow: hidden;*/
+	margin-left: 15px;
+	
+}
+
+.personal {
+	display: flex;
+	box-sizing: border-box;
+	width: 235px;
+	height: 35px;
+	border-radius: 5px;
+	border: 1px solid #c0c0c0;
+	background-image: linear-gradient(white, #eeeeee);
+	margin-left: 15px;
+	
+}
+
+.board {
+	display: block;
+	height: 160px;
+	border-bottom: 2px solid #c0c0c0;
+	/*padding: 0 5px 0 5px;*/
+	/*background-color: pink*/
+	/*box-sizing: border-box;*/
+}
+
+.title {
+	display: block;
+	/*margin-bottom: 0;*/
+	max-height: 100px;
+	width: calc(100% - 10px);
+	border-bottom: 2px solid #eeeeee;
+	margin-left: 5px;
+	/*text-align: center;*/
+	/*font-size: 24px;*/
+	/*background-color: turquoise;*/
+}
+
+.title p {
+	margin: 0;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 36px;
+	font-weight: bold;
+	font-family: Arial;
+	/*line-height: 100%;*/
+	text-align: center;
+}
+
+.gallery {
+	padding: 7px;
+	background-color: #e9e9e9;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+}
+
+.picture {
+	display: block;
+	margin: 6px;
+	border-radius: 5px;
+	width: 235px;
+	overflow: hidden;
+	border: 1px solid #f1f1f1;
+	background-color: white;
+}
+
+.picture img {
+	border-radius: 5px;
+	width: 235px;
+	margin: 0;
+}
+
+.description {
+	margin: 0;
+	display: block;
+	font-family: Verdana;
+	font-size: 12px;
+	padding: 10px;
+	color: #333333;
+	border-top: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.source {
+	color: #333333;
+	font-family: Verdana;
+	font-size: 11px;
+	padding-left: 10px;
+}
+
+.pinned-from {
+	font-weight: bold;
+}
